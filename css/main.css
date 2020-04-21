@@ -1,0 +1,220 @@
+.style1 {
+  background-color: white;
+  border-radius: 8px;
+}
+
+.btn {
+  background-color: #39113E;
+}
+
+.btn:hover {
+  background-color: #a580ba;
+  color: black;
+}
+
+.style2 {
+  background-color: #39113E;
+  color: white;
+  margin-left: 10px;
+}
+
+
+.cards {
+  background-color: white;
+}
+
+section a:hover{
+  background-color: purple;
+}
+
+a:hover,
+a:focus {
+  background-color: purple;
+  color: white;
+}
+
+html, body {
+  font-family: "Playfair Display", serif;
+  background-color: purple;
+}
+
+h1,
+h2,
+h3 {
+  font-family: Sen, sans-serif;
+}
+
+.align {
+  margin-top: -20px;
+}
+
+.logo {
+  max-width: 150px;
+}
+
+li {
+  width: 32%;
+  text-align: center;
+}
+
+.popup {
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background-color: rgba(0,0,0,0.6);
+  display: none;
+}
+
+.popup-content {
+  max-width: 600px;
+  width: 90%;
+  height: auto;
+  margin: 100px auto;
+  position: relative;
+  background-color: #fff;
+  border-radius: 8px;
+}
+
+.close {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  border-radius: 50%;
+  border: 3px solid #fff;
+  color: #fff;
+  text-decoration: none;
+  line-height: 0;
+  padding: 9px 0 11px;
+  width: 25px;
+  text-align: center;
+  background-color: #222;
+
+}
+
+.popup:target {
+  display: block;
+}
+
+
+
+
+.custombtn {
+  background-color: black;
+  color: #a580ba;
+  border-radius: 25px;
+}
+
+.custombtn:hover {
+  background-color: purple;
+  color: white;
+}
+
+.navbtn {
+  background-color: white;
+  border-radius: 25px;
+  border: black solid 1px;
+  color: #39113E;
+  margin-top: 10px;
+}
+
+.special {
+  width: 100%;
+  top: -5em;
+}
+
+header {
+  background-color: #fff;
+}
+
+body {
+  background-color: #a580ba;
+}
+
+body {
+  margin: 0;
+}
+
+.img-flex {
+  display: block;
+  width: 100%;
+}
+
+.banners {
+  overflow-y: hidden;
+  position: relative;
+  max-height: 500px;
+}
+
+.banner-content {
+  width: 100%;
+  top: 10px;
+  left: 0px;
+}
+
+.banner-title {
+  margin: 0 0 1rem;
+  border-radius: 8px;
+  background-color: rgba(0, 0, 0, .5);
+  color: #fff;
+  padding: 5px;
+}
+
+
+
+.banner-desc {
+  margin: 0;
+
+  font-size: 2rem;
+  font-style: italic;
+}
+
+.hide2 {
+  display: none;
+}
+
+.twitter {
+  max-width: 15px;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+.footer {
+  background-color: white;
+}
+
+.active {
+  background-color: #39113E;
+  color: white;
+}
+@media only screen and (min-width: 25em) {
+
+
+
+}
+
+@media only screen and (min-width: 38em) {
+
+
+
+}
+
+@media only screen and (min-width: 50em) {
+
+  .hide2 {
+    display: block;
+  }
+
+  .hide1 {
+    display: none;
+  }
+
+}
+
+@media only screen and (min-width: 90em) {
+
+
+
+}

@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en-ca">
+<head>
+  <meta charset="utf-8">
+  <title>Output Now</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Sen:wght@400;700;800&display=swap" rel="stylesheet">
+  <link href="css/modules.css" rel="stylesheet">
+  <link href="css/grid.css" rel="stylesheet">
+  <link href="css/type.css" rel="stylesheet">
+  <link href="css/main.css" rel="stylesheet">
+</head>
+<body>
+
+  <ul class="skip-links">
+    <li><a href="#main">Jump to main section</a></li>
+    <li><a href="#nav">Jump to navigation</a></li>
+  </ul>
+
+  <header role="banner">
+    <div class="grid pad-t gutter">
+      <div class="center-text unit-xs-hidden unit m-1-4">
+        <img class="img-flex logo" src="photos/logo.svg" alt="">
+      </div>
+      <div class="unit xs-1 s-1 unit-m-hidden">
+        <div class="unit-content-center-horizontal unit-content-center-vertical grid flex-align-center grid-middle">
+          <img class="img-flex logo" src="photos/logo.svg" alt="">
+          <div class="text-center">
+            <a href="#xmas-popup" class="gutter-2 unit xs-1"><img class="i-48" src="photos/28.jpg" alt=""></a>
+          </div>
+        </div>
+      </div>
+      <nav id="nav" role="navigation" class="unit xs-1 s-1 m-1-2 flex-justify">
+        <ul class="list-group-inline flex-justify">
+          <li><a class="active btn navbtn" href="index.html">Home</a></li>
+          <li><a class="btn navbtn" href="tour.html">Tour</a></li>
+          <li><a class="btn navbtn" href="sign-up.html">Sign-up</a></li>
+        </ul>
+      </nav>
+      <div class="center-text unit-xs-hidden unit m-1-4">
+        <div class="unit-content-center-horizontal unit-content-center-vertical grid flex-align-center grid-middle">
+          <a href="#xmas-popup" class="gutter-2 unit xs-1-4"><img class="i-48" src="photos/28.jpg" alt=""></a>
+        </div>
+      </div>
+    </div>
+    <div class="banners">
+      <img class="img-flex hide1" src="photos/banner-1.jpg" alt="">
+      <img class="img-flex hide2" src="photos/banner-1-large.jpg" alt="">
+      <div class="banner-content absolute gutter">
+        <h1 class="banner-title giga">Web to print made easy</h1>
+        <a class="btn" href="sign-up.html">Sign up now!</a>
+      </div>
+    </div>
+  </header>
+  <main id="main" role="main">
+    <div class="popup" id="xmas-popup">
+      <div class="popup-content island-2">
+        <ul class="list-group">
+          <li class="text-center">
+            <i class="icon i-48 push-r">
+              <img src="photos/28.jpg" alt="">
+            </i>
+            <span class="icon-label">Log In</span>
+          </li>
+        </ul>
+        <form class="push-0" method="POST" action="https://formspree.io/sara.sherrer@hotmail.com">
+          <div class="push">
+            <label for="email">Your email</label>
+            <input id="email" type="email" placeholder="me@me.com" name="email" required>
+          </div>
+          <div class="push">
+            <label for="password">Password</label>
+            <input id="password" name="password" required>
+          </div>
+          <div class="text-center">
+            <button class="btn" type="submit">Log In</button>
+          </div>
+        </form>
+        <a href="#" class="close">x</a>
+      </div>
+    </div>
+
+    <section class="pad-t-2 gutter-2 wrapper">
+      <h2 class="push-1-2 mega">Our Products</h2>
+      <div class="grid">
+        <div class="unit xs-1 s-1 m-1-2 l-1-2 xl-1-2 grid-stretch island cards push">
+          <h3 class="mega">Flyers</h3>
+          <img class="img-flex" aria-details="#flyers" src="photos/index-1.jpg" alt="">
+        </div>
+
+        <div id="flyers" class="unit unit-content-distribute xs-1 s-1 m-1-2 l-1-2 xl-1-2 grid-stretch island">
+          <p class="">Ready to make a great first impression? Our bulk business card printing services are top of the line and has many attention grabbing options. Show you’re a pro with business card options ranging from traditional to trendy. With a variety of designs, papers and finishes.</p>
+          <a class="btn custombtn unit-content-center-vertical" href="#">Learn more!</a>
+        </div>
+
+        <div class="unit xs-1 s-1 m-1-2 l-1-2 xl-1-2 grid-stretch island cards push">
+          <h3 class="mega">Business Cards</h3>
+          <img aria-details="#cards" class="img-flex" src="photos/index-2.jpg" alt="">
+        </div>
+
+        <div id="cards" class="unit unit-content-distribute xs-1 s-1 m-1-2 l-1-2 xl-1-2 grid-stretch island">
+          <p>We print anything and everything needed for your flyer business. We offer competitive bulk prices for bulk pamphlet printing. With a variety of designs, papers and finishes, your message will grab your reader’s attention.</p>
+          <a class="btn custombtn unit-content-center-vertical" href="#">Learn more!</a>
+        </div>
+
+        <div class="unit xs-1 s-1 m-1-2 l-1-2 xl-1-2 grid-stretch island cards push">
+          <h3 class="mega">Calendar</h3>
+          <img aria-details="#calendar" class="img-flex" src="photos/index-3.jpg" alt="">
+        </div>
+
+        <div id="details" class="unit unit-content-distribute xs-1 s-1 m-1-2 l-1-2 xl-1-2 grid-stretch island">
+          <p>We print anything and everything needed for your flyer business. We offer competitive bulk prices for bulk pamphlet printing. With a variety of designs, papers and finishes, your message will grab your reader’s attention.</p>
+          <a class="btn custombtn unit-content-center-vertical" href="#">Learn more!</a>
+        </div>
+
+        <div class="unit xs-1 s-1 m-1-2 l-1-2 xl-1-2 grid-stretch island cards push">
+          <h3 class="mega">Booklets</h3>
+          <img aria-details="#book" class="img-flex" src="photos/index-4.jpg" alt="">
+        </div>
+
+        <div id="books" class="unit unit-content-distribute xs-1 s-1 m-1-2 l-1-2 xl-1-2 grid-stretch island">
+          <p>We print anything and everything needed for your flyer business. We offer competitive bulk prices for bulk pamphlet printing. With a variety of designs, papers and finishes, your message will grab your reader’s attention.</p>
+          <a class="btn custombtn unit-content-center-vertical" href="#">Learn more!</a>
+        </div>
+
+        <div class="unit xs-1 s-1 m-1-2 l-1-2 xl-1-2 grid-stretch island cards push">
+          <h3 class="mega">All Products</h3>
+          <img class="img-flex" src="photos/index-5.jpg" alt="">
+        </div>
+
+        <div class="unit unit-content-distribute xs-1 s-1 m-1-2 l-1-2 xl-1-2 grid-stretch island push">
+          <p class="">We print anything and everything needed for your flyer business. We offer competitive bulk prices for bulk pamphlet printing. With a variety of designs, papers and finishes, your message will grab your reader’s attention.</p>
+          <a class="btn custombtn unit-content-center-vertical" href="#">Learn more!</a>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="footer pad-t-1-2 pad-b-1-2">
+    <div class="wrapper gutter-1-2">
+      <div class="grid">
+        <div class="unit xs-1-3">
+          <p class="push-1-4 pico text-center" >Career</p>
+          <p class="push-1-4 pico text-center" >About Us</p>
+          <p class="push-1-4 pico text-center" >Features</p>
+          <img class="img-flex twitter" src="photos/pin.png" alt="">
+
+        </div>
+        <div class="unit xs-1-3">
+          <p class="push-1-4 pico text-center" >Feedback</p>
+          <p role="contentinfo" class="push-1-4 pico text-center" >Terms of Service</p>
+          <p class="push-1-4 pico text-center" >Shipping</p>
+          <img class="img-flex twitter" src="photos/facebook.png" alt="">
+
+        </div>
+        <div class="unit xs-1-3">
+          <p class="push-1-4 pico text-center" >Printing</p>
+          <p class="push-1-4 pico text-center" >Blog</p>
+          <p class="push-1-4 pico text-center" >Support</p>
+          <img class="img-flex twitter" src="photos/twitter.png" alt="">
+
+        </div>
+
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
